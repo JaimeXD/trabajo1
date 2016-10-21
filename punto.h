@@ -20,6 +20,8 @@ public:
     void printf();
     double getx();
     double gety();
+    void setx(double nx);
+    void sety(double ny);
 };
 
 
