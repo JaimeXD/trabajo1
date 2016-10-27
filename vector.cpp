@@ -12,3 +12,15 @@ void Vector::printf(){
     end1.printf();
     cout<<endl;
 }
+double Vector::getstart(){
+    return start;
+}
+double Vector::getend(){
+    return end1;
+}
+void Vector::setstart(double xya){
+    start=xya;
+}
+void Vector::setend(double xye){
+    end1=xye;
+}
