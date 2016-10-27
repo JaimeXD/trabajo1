@@ -10,7 +10,12 @@ public:
     Point end1;
     void suma(double sumax,double sumay);
     void printf();
+    double getstart();
+    double getend();
+    void setstart(double xya);
+    void setend(double xye);
 };
+
 
 
 #endif // VECTOR_H_INCLUDED
