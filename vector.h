@@ -5,9 +5,10 @@
 using namespace std;
 
 class Vector{
-public:
+private:
     Point start;
     Point end1;
+public:
     void suma(double sumax,double sumay);
     void printf();
     double getstart();
