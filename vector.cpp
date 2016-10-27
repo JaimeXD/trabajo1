@@ -18,9 +18,11 @@ double Vector::getstart(){
 double Vector::getend(){
     return end1;
 }
-void Vector::setstart(double xya){
-    start=xya;
+void Vector::setstart(double x,double y){
+    start.x=x;
+    start.y=y;
 }
-void Vector::setend(double xye){
-    end1=xye;
+void Vector::setend(double x,double y){
+    end1.x=x;
+    end1.y=y;
 }
