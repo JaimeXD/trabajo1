@@ -5,16 +5,17 @@
 using namespace std;
 
 class Point{
-public:
+private:
     double x,y;
+public:
     Point(){
-        x=0.0;y=0.0;cout<<"point instance created:"<<x<<"."<<y<<endl;
+        x=0.0;y=0.0;cout<<"point instance created:"<<x<<","<<y<<endl;
     }
     Point(double nx,double ny){
-        x=nx;y=ny;cout<<"2-parameter constructor:"<<x<<"."<<y<<endl;
+        x=nx;y=ny;cout<<"2-parameter constructor:"<<x<<","<<y<<endl;
     }
     Point(Point &o){
-        x=o.x;y=o.y;cout<<"custom copy contructor;"<<x<<"."<<y<<endl;
+        x=o.x;y=o.y;cout<<"custom copy contructor;"<<x<<","<<y<<endl;
     }
     void suma(double sumx,double sumay);
     void printf();
